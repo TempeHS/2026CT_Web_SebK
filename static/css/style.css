@@ -2,25 +2,22 @@
   height: 60px;
 }
 .slider_img {
-  width: 1080px;
-  box-align: center;
-  height: 600px;
+  width: 1920px;
+  height: 900px;
 }
 
 .card {
   width: 500px;
-  box-align: center;
   height: 300px;
 }
 
 .card-img {
-  width: 300px
-  box-align: center;
-  height: 200px
+  width: 275px;
+  height: 200px;
+  align: center;
 }
 
 .card-img2 {
   width: 500px;
-  box-align: center;
-  height: 200px
+  height: 200px;
 }
