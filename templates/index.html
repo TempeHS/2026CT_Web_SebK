@@ -2,16 +2,20 @@
 
 <p>Image credit: Steam Community, Cookie Clicker Wiki, Fe4RLessV2</p>
 
-{%for card in cards%}
 <div class="container">
   <div class="row">
-    <div class="card">
-      <img src="{{ card[3] }}" class="card-img" alt=" " />
-      <div class="card-body">
-        <h5 class="card-title">{{ card[0] }}</h5>
-        <p class="card-text">{{ card[1] }}</p>
+    {% for card in cards %}
+    <div class="col-sm-12 col-md-6 col-lg-4">
+      <div class="card">
+        <img src="{{ card[3] }}" class="card-img" alt=" " />
+        <div class="card-body">
+          <h5 class="card-title">{{ card[0] }}</h5>
+          <p class="card-text">{{ card[1] }}</p>
+          <a href="{{ card[2] }}" class="btn btn-primary">Find Out Here!</a>
+        </div>
       </div>
     </div>
+    {% endfor %}
   </div>
 </div>
-{%endfor%} {% endblock %}
+{% endblock %}
