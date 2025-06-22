@@ -10,9 +10,9 @@ def index():
         ("Golden Cookie Combos", "How to use golden cookies together", "combos.html", "static/images/cardimg1.png"),
         ("Best Krumblor Abilites", "How to train your cookie dragon", "krumblor.html", "static/images/cardimg2.png"),
         ("Minigame Guide", "How to maximise your minigame game", "minigames.html", "static/images/cardimg3.png"),
-        ("Early Game Guide", "How to start cookie clicker", "earlygame.html", "static/images/cardimg4.png"),
-        ("Mid Game Guide", "How to keep it going", "midgame.html", "static/images/cardimg5.png"),
-        ("Late Game Guide", "How to make the number even bigger", "lategame.html", "static/images/cardimg6.png"),
+        ("Early Game Guide", "How to start cookie clicker", "earlygame.html", "static/images/early.jpg"),
+        ("Mid Game Guide", "How to keep it going", "midgame.html", "static/images/mid.png"),
+        ("Late Game Guide", "How to make the number even bigger", "lategame.html", "static/images/late.webp"),
     )
 
     return render_template("index.html", cards=card_data), 200
